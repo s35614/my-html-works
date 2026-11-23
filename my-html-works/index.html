@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Web Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER: Grid Layout -->
+    <header id="main-header">
+        <h1>Welcome to My Web Page</h1>
+        <p>WWW Development - Tutorial IV</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#flexbox">Flexbox</a>
+        <a href="#grid">Grid</a>
+        <a href="#columns">Columns</a>
+    </nav>
+
+    <main>
+
+        <!-- BOX MODEL -->
+        <section id="about">
+            <h2>About This Website</h2>
+
+            <div id="box">
+                This is an example of the CSS Box Model.
+                It contains margin, padding, border and content.
+            </div>
+
+            <p id="special-paragraph">
+                This paragraph has a unique ID and special styling.
+            </p>
+        </section>
+
+        <!-- FLEXBOX -->
+        <section id="flexbox">
+            <h2>Flexbox Layout</h2>
+
+            <div class="flex-container">
+
+                <div class="flex-item">Item 1</div>
+
+                <div class="flex-item">Item 2</div>
+
+                <div class="flex-item">Item 3</div>
+
+            </div>
+        </section>
+
+        <!-- GRID -->
+        <section id="grid">
+            <h2>Grid Layout</h2>
+
+            <div class="grid-container">
+
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>
+
+            </div>
+        </section>
+
+        <!-- COLUMNS -->
+        <section id="columns">
+            <h2>CSS Columns</h2>
+
+            <div class="column-layout">
+                <p>
+                    CSS is used to style HTML documents.
+                    It controls colors, fonts, spacing and layouts.
+                    External stylesheets allow developers to
+                    organize their code in separate files.
+
+                    Flexbox is a one-dimensional layout system.
+                    It helps arrange elements in rows or columns.
+
+                    Grid Layout is a two-dimensional system.
+                    It allows developers to create rows and columns
+                    and organize content on a web page.
+
+                    The CSS Box Model consists of content,
+                    padding, border and margin.
+                </p>
+            </div>
+        </section>
+
+        <!-- IMAGES -->
+        <section id="gallery">
+    <h2>My Photo Gallery</h2>
+
+    <div class="image-container">
+
+        <img src="css/images/photo1.jpg"
+             alt="My first photo"
+             class="image-style">
+
+        <img src="css/images/photo2.jpg"
+             alt="My second photo"
+             class="image-style">
+
+        <img src="css/images/photo3.jpg"
+             alt="My third photo"
+             class="image-style">
+
+    </div>
+</section>
+
+    </main>
+
+    <!-- FOOTER: Grid Layout -->
+    <footer>
+        <p>WWW Development Course</p>
+        <p>© 2026 My Web Page</p>
+    </footer>
+
+</body>
+</html>
